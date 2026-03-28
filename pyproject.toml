@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "pharox-sdk"
+version = "0.1.0"
+description = "Typed Python SDK for pharox — remote mode (HTTP) and local mode (direct toolkit)"
+authors = ["fzaca"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "pharox_sdk", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pharox = "^0.8.1"
+httpx = "^0.28"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+pytest-asyncio = "^0.23"
+respx = "^0.21"
+mypy = "^1.10"
+ruff = "^0.4"
+commitizen = "^3.27"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version_provider = "poetry"
+update_changelog_on_bump = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
