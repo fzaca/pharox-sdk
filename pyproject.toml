@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pharox-sdk"
-version = "0.1.0"
+version = "0.2.0"
 description = "Typed Python SDK for pharox — remote mode (HTTP) and local mode (direct toolkit)"
 authors = ["fzaca"]
 license = "MIT"
