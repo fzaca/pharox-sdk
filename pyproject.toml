@@ -9,7 +9,7 @@ packages = [{ include = "pharox_sdk", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pharox = "^0.8.1"
+pharox = "^0.8.2"
 httpx = "^0.28"
 
 [tool.poetry.group.dev.dependencies]

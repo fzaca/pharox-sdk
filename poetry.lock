@@ -675,14 +675,14 @@ tests = ["pytest (>=9)", "typing-extensions (>=4.15)"]
 
 [[package]]
 name = "pharox"
-version = "0.8.1"
+version = "0.8.2"
 description = "A modern library for managing, leasing, and monitoring proxy pools."
 optional = false
 python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "pharox-0.8.1-py3-none-any.whl", hash = "sha256:74878461bc8bc734ec2fde2c7499e88ea98f1ddc4dc15920e228d6100bba94e0"},
-    {file = "pharox-0.8.1.tar.gz", hash = "sha256:1e73d6fb8efa7ca86c87e918d4d1b12298fa4d15beb221ff13eeeb5fa512889a"},
+    {file = "pharox-0.8.2-py3-none-any.whl", hash = "sha256:91af2fdcf35373040597a3c63979f6b65c84c504e5c972227e49cc016df65cfb"},
+    {file = "pharox-0.8.2.tar.gz", hash = "sha256:fcb5d3272d83001342115ecaf327b4fc6b713cb39e3bb6cfa9d2cedca6a7781b"},
 ]
 
 [package.dependencies]
@@ -1206,4 +1206,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "d8c3f22d906882d69a16db2cc0089eb4b5eb8d81d413545ea9ce73773124d15c"
+content-hash = "29103cb2b54e2451bf66e697b0d5ca2ac49f5e010bafaf5780425ddaa7b16824"
